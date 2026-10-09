@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       Ahime Joinery Configurator for WooCommerce
- * Plugin URI:        https://ahime.net
+ * Plugin URI:        https://github.com/nahim-salami/ahime-joinery-configurator
  * Description:       Let customers configure windows, doors, shutters and blinds in 2D and 3D, with a price calculated to the cent and checked again by your store before the order is written.
  * Version:           0.5.0
  * Author:            Ahime
- * Author URI:        https://ahime.net
+ * Author URI:        https://www.ahime.net
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * WC requires at least: 8.0
