@@ -1,0 +1,4 @@
+node_modules/
+dist/
+ahime-joinery-configurator/assets/
+*.timestamp-*.mjs

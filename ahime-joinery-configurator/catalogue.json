@@ -1,0 +1,2575 @@
+{
+  "coefAlimentationMilliemes": {
+    "filaire": 1000,
+    "solaire": 1340
+  },
+  "coefAspectVitrageMilliemes": {
+    "clair": 1000,
+    "depoli": 1080,
+    "sable": 1160,
+    "serigraphie": 1240
+  },
+  "coefCouleurMilliemes": {
+    "bicolore": 1250,
+    "blanc": 1000,
+    "plaxe": 1120,
+    "ral-1-face": 1150
+  },
+  "coefFeuilleteMilliemes": 1180,
+  "coefGammeMilliemes": {
+    "confort": 1150,
+    "performance": 1320,
+    "standard": 1000
+  },
+  "coefPhoniqueMilliemes": 1150,
+  "coefRemplissagePorteMilliemes": {
+    "pleine": 1000,
+    "semi-vitree": 1120,
+    "vitree": 1220
+  },
+  "coefStoreIntegreMilliemes": 1550,
+  "coefVitrageMilliemes": {
+    "double": 1000,
+    "double-itr": 1060,
+    "triple": 1220
+  },
+  "coefWarmEdgeMilliemes": 1040,
+  "coffres": {
+    "bloc-baie": {
+      "coefMilliemes": 1180,
+      "label": "Bloc-baie"
+    },
+    "exterieur": {
+      "coefMilliemes": 1000,
+      "label": "Coffre extérieur"
+    },
+    "tunnel": {
+      "coefMilliemes": 1060,
+      "label": "Coffre tunnel"
+    }
+  },
+  "familles": {
+    "bso": {
+      "bornes": {
+        "minHeightMm": 400,
+        "minWidthMm": 590,
+        "vantailMaxMm": {
+          "alu": 4500
+        },
+        "vantailMinMm": 590,
+        "vantauxMax": 1,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1000
+      },
+      "frameBandMm": {
+        "alu": 30,
+        "bois": 30,
+        "pvc": 30
+      },
+      "label": "Brise-soleil orientable",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              48000,
+              62000,
+              79000,
+              112000,
+              146000
+            ],
+            [
+              58000,
+              75000,
+              96000,
+              136000,
+              178000
+            ],
+            [
+              69000,
+              89000,
+              114000,
+              162000,
+              212000
+            ],
+            [
+              88000,
+              114000,
+              146000,
+              208000,
+              272000
+            ]
+          ],
+          "heightsMm": [
+            1000,
+            1500,
+            2000,
+            3000
+          ],
+          "widthsMm": [
+            1000,
+            1500,
+            2000,
+            3000,
+            4000
+          ]
+        }
+      },
+      "vitree": false
+    },
+    "coulissant": {
+      "bornes": {
+        "minHeightMm": 1750,
+        "minWidthMm": 1600,
+        "vantailMaxMm": {
+          "alu": 1600,
+          "bois": 1400,
+          "mixte": 1500,
+          "pvc": 1250
+        },
+        "vantailMinMm": 700,
+        "vantauxMax": 4,
+        "vantauxMin": 2
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1600,
+        "bois": 2000,
+        "mixte": 2300,
+        "pvc": 1000
+      },
+      "coefOuvertureMilliemes": {
+        "coulissant": 1000,
+        "galandage": 1450,
+        "levage": 1750
+      },
+      "deductions": {
+        "alu": {
+          "battementMm": 40,
+          "dormantVuMm": 22,
+          "jeuVitrageMm": 4,
+          "meneauMm": 70,
+          "ouvrantVuMm": 44,
+          "priseDeVerreMm": 10,
+          "recouvrementOuvrantMm": 0,
+          "renovationEcartMm": 0
+        },
+        "bois": {
+          "battementMm": 70,
+          "dormantVuMm": 34,
+          "jeuVitrageMm": 4,
+          "meneauMm": 90,
+          "ouvrantVuMm": 52,
+          "priseDeVerreMm": 14,
+          "recouvrementOuvrantMm": 0,
+          "renovationEcartMm": 0
+        },
+        "mixte": {
+          "battementMm": 56,
+          "dormantVuMm": 28,
+          "jeuVitrageMm": 4,
+          "meneauMm": 85,
+          "ouvrantVuMm": 48,
+          "priseDeVerreMm": 12,
+          "recouvrementOuvrantMm": 0,
+          "renovationEcartMm": 0
+        },
+        "pvc": {
+          "battementMm": 60,
+          "dormantVuMm": 30,
+          "jeuVitrageMm": 4,
+          "meneauMm": 80,
+          "ouvrantVuMm": 47,
+          "priseDeVerreMm": 12,
+          "recouvrementOuvrantMm": 0,
+          "renovationEcartMm": 0
+        }
+      },
+      "label": "Baie coulissante",
+      "matrices": {
+        "2": {
+          "cellsCents": [
+            [
+              56000,
+              59000,
+              62200,
+              65600,
+              71000,
+              76800
+            ],
+            [
+              58500,
+              61600,
+              64900,
+              68400,
+              74000,
+              80000
+            ],
+            [
+              59800,
+              63000,
+              66400,
+              68800,
+              74800,
+              81000
+            ],
+            [
+              61200,
+              64500,
+              67900,
+              69600,
+              76400,
+              82800
+            ],
+            [
+              64000,
+              67400,
+              71000,
+              73000,
+              80000,
+              86600
+            ]
+          ],
+          "heightsMm": [
+            1800,
+            2000,
+            2100,
+            2200,
+            2400
+          ],
+          "widthsMm": [
+            1800,
+            2000,
+            2200,
+            2400,
+            2700,
+            3000
+          ]
+        },
+        "3": {
+          "cellsCents": [
+            [
+              98000,
+              104200,
+              110400,
+              116600,
+              124800
+            ],
+            [
+              103100,
+              109700,
+              116300,
+              122800,
+              131600
+            ],
+            [
+              108300,
+              115200,
+              122200,
+              129100,
+              138400
+            ],
+            [
+              113400,
+              120700,
+              128100,
+              135400,
+              145100
+            ]
+          ],
+          "heightsMm": [
+            1800,
+            2000,
+            2200,
+            2400
+          ],
+          "widthsMm": [
+            2700,
+            3000,
+            3300,
+            3600,
+            4000
+          ]
+        },
+        "4": {
+          "cellsCents": [
+            [
+              121600,
+              129800,
+              137900,
+              146000,
+              158200,
+              170400
+            ],
+            [
+              127800,
+              136400,
+              145000,
+              153600,
+              166500,
+              179400
+            ],
+            [
+              134000,
+              143000,
+              152100,
+              161200,
+              174800,
+              188400
+            ],
+            [
+              140100,
+              149700,
+              159200,
+              168800,
+              183100,
+              197500
+            ]
+          ],
+          "heightsMm": [
+            1800,
+            2000,
+            2200,
+            2400
+          ],
+          "widthsMm": [
+            3600,
+            4000,
+            4400,
+            4800,
+            5400,
+            6000
+          ]
+        }
+      },
+      "ouvertures": [
+        "coulissant",
+        "galandage",
+        "levage"
+      ],
+      "seuilsFerrures": {
+        "renforceKg": 200,
+        "standardKg": 80
+      },
+      "vitree": true
+    },
+    "fenetre": {
+      "bornes": {
+        "minHeightMm": 450,
+        "minWidthMm": 400,
+        "vantailMaxMm": {
+          "alu": 1200,
+          "bois": 1000,
+          "mixte": 1100,
+          "pvc": 900
+        },
+        "vantailMinMm": 280,
+        "vantauxMax": 4,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1600,
+        "bois": 1850,
+        "mixte": 2200,
+        "pvc": 1000
+      },
+      "coefOuvertureMilliemes": {
+        "fixe": 820,
+        "frappe": 1000,
+        "soufflet": 950
+      },
+      "deductions": {
+        "alu": {
+          "battementMm": 100,
+          "dormantVuMm": 25,
+          "jeuVitrageMm": 4,
+          "meneauMm": 70,
+          "ouvrantVuMm": 45,
+          "priseDeVerreMm": 10,
+          "recouvrementOuvrantMm": 6,
+          "renovationEcartMm": 0
+        },
+        "bois": {
+          "battementMm": 130,
+          "dormantVuMm": 35,
+          "jeuVitrageMm": 4,
+          "meneauMm": 90,
+          "ouvrantVuMm": 55,
+          "priseDeVerreMm": 14,
+          "recouvrementOuvrantMm": 12,
+          "renovationEcartMm": 0
+        },
+        "mixte": {
+          "battementMm": 120,
+          "dormantVuMm": 30,
+          "jeuVitrageMm": 4,
+          "meneauMm": 85,
+          "ouvrantVuMm": 50,
+          "priseDeVerreMm": 12,
+          "recouvrementOuvrantMm": 10,
+          "renovationEcartMm": 0
+        },
+        "pvc": {
+          "battementMm": 112,
+          "dormantVuMm": 33,
+          "jeuVitrageMm": 4,
+          "meneauMm": 80,
+          "ouvrantVuMm": 52,
+          "priseDeVerreMm": 12,
+          "recouvrementOuvrantMm": 8,
+          "renovationEcartMm": 0
+        }
+      },
+      "label": "Fenêtre",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              16900,
+              19100,
+              21400,
+              23700,
+              26000
+            ],
+            [
+              18900,
+              21500,
+              24100,
+              26700,
+              29200
+            ],
+            [
+              21000,
+              23900,
+              26700,
+              29600,
+              32500
+            ],
+            [
+              23100,
+              26300,
+              29400,
+              32600,
+              35700
+            ],
+            [
+              25600,
+              29100,
+              32600,
+              36100,
+              39600
+            ],
+            [
+              28100,
+              31900,
+              35800,
+              39600,
+              43500
+            ],
+            [
+              30600,
+              34800,
+              39000,
+              43200,
+              47400
+            ]
+          ],
+          "heightsMm": [
+            450,
+            700,
+            950,
+            1200,
+            1500,
+            1800,
+            2100
+          ],
+          "widthsMm": [
+            400,
+            600,
+            800,
+            1000,
+            1200
+          ]
+        },
+        "2": {
+          "cellsCents": [
+            [
+              28900,
+              31500,
+              34200,
+              37100,
+              40300,
+              46200,
+              51000,
+              54200
+            ],
+            [
+              31500,
+              34400,
+              37500,
+              40800,
+              44400,
+              50800,
+              56000,
+              59500
+            ],
+            [
+              34200,
+              37500,
+              41000,
+              44700,
+              48800,
+              55300,
+              61000,
+              64800
+            ],
+            [
+              36300,
+              39900,
+              43700,
+              47800,
+              52300,
+              58700,
+              64800,
+              68800
+            ],
+            [
+              38500,
+              42400,
+              46600,
+              51100,
+              56000,
+              62100,
+              68600,
+              72900
+            ],
+            [
+              42600,
+              47400,
+              52200,
+              57000,
+              61700,
+              68900,
+              76100,
+              80900
+            ],
+            [
+              46800,
+              52100,
+              57300,
+              62600,
+              67800,
+              75700,
+              83600,
+              88900
+            ]
+          ],
+          "heightsMm": [
+            800,
+            1000,
+            1200,
+            1350,
+            1500,
+            1800,
+            2100
+          ],
+          "widthsMm": [
+            800,
+            1000,
+            1200,
+            1400,
+            1600,
+            1900,
+            2200,
+            2400
+          ]
+        },
+        "3": {
+          "cellsCents": [
+            [
+              49200,
+              54200,
+              59100,
+              64100,
+              69100
+            ],
+            [
+              53800,
+              59200,
+              64700,
+              70100,
+              75600
+            ],
+            [
+              58300,
+              64300,
+              70200,
+              76200,
+              82100
+            ],
+            [
+              65100,
+              71800,
+              78500,
+              85200,
+              91900
+            ],
+            [
+              72000,
+              79400,
+              86800,
+              94300,
+              101700
+            ],
+            [
+              78800,
+              87000,
+              95100,
+              103300,
+              111500
+            ]
+          ],
+          "heightsMm": [
+            800,
+            1000,
+            1200,
+            1500,
+            1800,
+            2100
+          ],
+          "widthsMm": [
+            1800,
+            2100,
+            2400,
+            2700,
+            3000
+          ]
+        },
+        "4": {
+          "cellsCents": [
+            [
+              64600,
+              71500,
+              78400,
+              85300
+            ],
+            [
+              76100,
+              84300,
+              92600,
+              100800
+            ],
+            [
+              84700,
+              93900,
+              103200,
+              112400
+            ],
+            [
+              93300,
+              103500,
+              113800,
+              124000
+            ],
+            [
+              101900,
+              113100,
+              124400,
+              135700
+            ]
+          ],
+          "heightsMm": [
+            800,
+            1200,
+            1500,
+            1800,
+            2100
+          ],
+          "widthsMm": [
+            2400,
+            2800,
+            3200,
+            3600
+          ]
+        }
+      },
+      "ouvertures": [
+        "frappe",
+        "fixe",
+        "soufflet"
+      ],
+      "seuilsFerrures": {
+        "renforceKg": 130,
+        "standardKg": 80
+      },
+      "vitree": true
+    },
+    "fenetre-toit": {
+      "bornes": {
+        "minHeightMm": 698,
+        "minWidthMm": 550,
+        "vantailMaxMm": {
+          "bois": 1340,
+          "pvc": 1140
+        },
+        "vantailMinMm": 550,
+        "vantauxMax": 1,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "bois": 1000,
+        "pvc": 960
+      },
+      "frameBandMm": {
+        "bois": 90,
+        "pvc": 95
+      },
+      "label": "Fenêtre de toit",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              39500,
+              43800,
+              48200,
+              61500,
+              69800
+            ],
+            [
+              44200,
+              48900,
+              53600,
+              68300,
+              77400
+            ],
+            [
+              48600,
+              53700,
+              58900,
+              75100,
+              85100
+            ],
+            [
+              53100,
+              58600,
+              64300,
+              82000,
+              92900
+            ]
+          ],
+          "heightsMm": [
+            698,
+            978,
+            1178,
+            1398
+          ],
+          "widthsMm": [
+            550,
+            660,
+            780,
+            1140,
+            1340
+          ]
+        }
+      },
+      "seuilsFerrures": {
+        "renforceKg": 75,
+        "standardKg": 45
+      },
+      "vitree": true
+    },
+    "moustiquaire": {
+      "bornes": {
+        "minHeightMm": 400,
+        "minWidthMm": 400,
+        "vantailMaxMm": {
+          "alu": 2400,
+          "pvc": 1600
+        },
+        "vantailMinMm": 400,
+        "vantauxMax": 1,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1000,
+        "pvc": 880
+      },
+      "frameBandMm": {
+        "alu": 25,
+        "pvc": 30
+      },
+      "label": "Moustiquaire",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              7900,
+              9200,
+              10800,
+              13600,
+              16200
+            ],
+            [
+              8800,
+              10300,
+              12100,
+              15200,
+              18100
+            ],
+            [
+              9800,
+              11500,
+              13500,
+              16900,
+              20200
+            ],
+            [
+              11200,
+              13100,
+              15400,
+              19300,
+              23000
+            ]
+          ],
+          "heightsMm": [
+            800,
+            1200,
+            1600,
+            2200
+          ],
+          "widthsMm": [
+            600,
+            900,
+            1200,
+            1600,
+            2000
+          ]
+        }
+      },
+      "vitree": false
+    },
+    "porte-entree": {
+      "bornes": {
+        "minHeightMm": 1900,
+        "minWidthMm": 750,
+        "vantailMaxMm": {
+          "alu": 1100,
+          "bois": 1100,
+          "mixte": 1100,
+          "pvc": 1000
+        },
+        "vantailMinMm": 350,
+        "vantauxMax": 2,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1500,
+        "bois": 1750,
+        "mixte": 2100,
+        "pvc": 1000
+      },
+      "coefOuvertureMilliemes": {
+        "frappe": 1000
+      },
+      "deductions": {
+        "alu": {
+          "battementMm": 100,
+          "dormantVuMm": 25,
+          "jeuVitrageMm": 4,
+          "meneauMm": 70,
+          "ouvrantVuMm": 70,
+          "priseDeVerreMm": 10,
+          "recouvrementOuvrantMm": 6,
+          "renovationEcartMm": 0
+        },
+        "bois": {
+          "battementMm": 130,
+          "dormantVuMm": 35,
+          "jeuVitrageMm": 4,
+          "meneauMm": 90,
+          "ouvrantVuMm": 84,
+          "priseDeVerreMm": 14,
+          "recouvrementOuvrantMm": 12,
+          "renovationEcartMm": 0
+        },
+        "mixte": {
+          "battementMm": 120,
+          "dormantVuMm": 30,
+          "jeuVitrageMm": 4,
+          "meneauMm": 85,
+          "ouvrantVuMm": 76,
+          "priseDeVerreMm": 12,
+          "recouvrementOuvrantMm": 10,
+          "renovationEcartMm": 0
+        },
+        "pvc": {
+          "battementMm": 112,
+          "dormantVuMm": 33,
+          "jeuVitrageMm": 4,
+          "meneauMm": 80,
+          "ouvrantVuMm": 78,
+          "priseDeVerreMm": 12,
+          "recouvrementOuvrantMm": 8,
+          "renovationEcartMm": 0
+        }
+      },
+      "defauts": {
+        "remplissagePorte": "pleine"
+      },
+      "label": "Porte d’entrée",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              82400,
+              84800,
+              87200,
+              89500
+            ],
+            [
+              84000,
+              86400,
+              88900,
+              91300
+            ],
+            [
+              85600,
+              88100,
+              90600,
+              93000
+            ],
+            [
+              87200,
+              89700,
+              92300,
+              94800
+            ],
+            [
+              89700,
+              92300,
+              95000,
+              97500
+            ]
+          ],
+          "heightsMm": [
+            1950,
+            2050,
+            2150,
+            2250,
+            2400
+          ],
+          "widthsMm": [
+            800,
+            900,
+            1000,
+            1100
+          ]
+        },
+        "2": {
+          "cellsCents": [
+            [
+              106900,
+              110500,
+              114100,
+              117800,
+              121400
+            ],
+            [
+              108700,
+              112400,
+              116200,
+              119900,
+              123600
+            ],
+            [
+              110600,
+              114400,
+              118200,
+              122000,
+              125800
+            ],
+            [
+              112400,
+              116300,
+              120200,
+              124100,
+              128000
+            ],
+            [
+              115700,
+              119700,
+              123700,
+              127700,
+              131700
+            ]
+          ],
+          "heightsMm": [
+            1950,
+            2050,
+            2150,
+            2250,
+            2400
+          ],
+          "widthsMm": [
+            1200,
+            1350,
+            1500,
+            1650,
+            1800
+          ]
+        }
+      },
+      "ouvertures": [
+        "frappe"
+      ],
+      "seuilsFerrures": {
+        "renforceKg": 140,
+        "standardKg": 90
+      },
+      "vitree": false
+    },
+    "porte-fenetre": {
+      "bornes": {
+        "minHeightMm": 1900,
+        "minWidthMm": 600,
+        "vantailMaxMm": {
+          "alu": 1200,
+          "bois": 1000,
+          "mixte": 1100,
+          "pvc": 900
+        },
+        "vantailMinMm": 500,
+        "vantauxMax": 3,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1600,
+        "bois": 1850,
+        "mixte": 2200,
+        "pvc": 1000
+      },
+      "coefOuvertureMilliemes": {
+        "fixe": 850,
+        "frappe": 1000
+      },
+      "deductions": {
+        "alu": {
+          "battementMm": 100,
+          "dormantVuMm": 25,
+          "jeuVitrageMm": 4,
+          "meneauMm": 70,
+          "ouvrantVuMm": 52,
+          "priseDeVerreMm": 10,
+          "recouvrementOuvrantMm": 6,
+          "renovationEcartMm": 0
+        },
+        "bois": {
+          "battementMm": 130,
+          "dormantVuMm": 35,
+          "jeuVitrageMm": 4,
+          "meneauMm": 90,
+          "ouvrantVuMm": 64,
+          "priseDeVerreMm": 14,
+          "recouvrementOuvrantMm": 12,
+          "renovationEcartMm": 0
+        },
+        "mixte": {
+          "battementMm": 120,
+          "dormantVuMm": 30,
+          "jeuVitrageMm": 4,
+          "meneauMm": 85,
+          "ouvrantVuMm": 58,
+          "priseDeVerreMm": 12,
+          "recouvrementOuvrantMm": 10,
+          "renovationEcartMm": 0
+        },
+        "pvc": {
+          "battementMm": 112,
+          "dormantVuMm": 33,
+          "jeuVitrageMm": 4,
+          "meneauMm": 80,
+          "ouvrantVuMm": 60,
+          "priseDeVerreMm": 12,
+          "recouvrementOuvrantMm": 8,
+          "renovationEcartMm": 0
+        }
+      },
+      "label": "Porte-fenêtre",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              49100,
+              53900,
+              58700
+            ],
+            [
+              51100,
+              56100,
+              61200
+            ],
+            [
+              53000,
+              58300,
+              63600
+            ],
+            [
+              55000,
+              60500,
+              66000
+            ]
+          ],
+          "heightsMm": [
+            1950,
+            2100,
+            2250,
+            2400
+          ],
+          "widthsMm": [
+            700,
+            900,
+            1100
+          ]
+        },
+        "2": {
+          "cellsCents": [
+            [
+              64900,
+              69900,
+              74900,
+              80000,
+              85000
+            ],
+            [
+              67500,
+              72700,
+              78000,
+              83300,
+              88600
+            ],
+            [
+              70100,
+              75600,
+              81100,
+              86600,
+              92100
+            ],
+            [
+              72700,
+              78400,
+              84200,
+              89900,
+              95600
+            ]
+          ],
+          "heightsMm": [
+            1950,
+            2100,
+            2250,
+            2400
+          ],
+          "widthsMm": [
+            1200,
+            1400,
+            1600,
+            1800,
+            2000
+          ]
+        },
+        "3": {
+          "cellsCents": [
+            [
+              85000,
+              92800,
+              100600,
+              108500,
+              116300
+            ],
+            [
+              88400,
+              96600,
+              104700,
+              112900,
+              121100
+            ],
+            [
+              91800,
+              100300,
+              108900,
+              117400,
+              126000
+            ],
+            [
+              95100,
+              104100,
+              113000,
+              121900,
+              130800
+            ]
+          ],
+          "heightsMm": [
+            1950,
+            2100,
+            2250,
+            2400
+          ],
+          "widthsMm": [
+            1800,
+            2100,
+            2400,
+            2700,
+            3000
+          ]
+        }
+      },
+      "ouvertures": [
+        "frappe",
+        "fixe"
+      ],
+      "seuilsFerrures": {
+        "renforceKg": 150,
+        "standardKg": 90
+      },
+      "vitree": true
+    },
+    "porte-garage": {
+      "bornes": {
+        "minHeightMm": 1800,
+        "minWidthMm": 2000,
+        "vantailMaxMm": {
+          "alu": 6000,
+          "pvc": 4000
+        },
+        "vantailMinMm": 2000,
+        "vantauxMax": 1,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1000,
+        "pvc": 920
+      },
+      "frameBandMm": {
+        "alu": 60,
+        "pvc": 70
+      },
+      "label": "Porte de garage",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              118000,
+              132000,
+              148000,
+              189000,
+              231000
+            ],
+            [
+              122000,
+              136000,
+              153000,
+              195000,
+              238000
+            ],
+            [
+              126000,
+              141000,
+              158000,
+              201000,
+              246000
+            ],
+            [
+              141000,
+              158000,
+              177000,
+              225000,
+              275000
+            ]
+          ],
+          "heightsMm": [
+            2000,
+            2125,
+            2250,
+            3000
+          ],
+          "widthsMm": [
+            2000,
+            2500,
+            3000,
+            4000,
+            5000
+          ]
+        }
+      },
+      "vitree": false
+    },
+    "screen-zip": {
+      "bornes": {
+        "minHeightMm": 500,
+        "minWidthMm": 600,
+        "vantailMaxMm": {
+          "alu": 6000
+        },
+        "vantailMinMm": 600,
+        "vantauxMax": 1,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1000
+      },
+      "frameBandMm": {
+        "alu": 25,
+        "bois": 25,
+        "pvc": 25
+      },
+      "label": "Screen vertical à coulisses zip",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              31000,
+              40000,
+              61000,
+              92000,
+              132000
+            ],
+            [
+              38000,
+              49000,
+              75000,
+              113000,
+              162000
+            ],
+            [
+              52000,
+              68000,
+              104000,
+              157000,
+              225000
+            ],
+            [
+              71000,
+              92000,
+              141000,
+              213000,
+              305000
+            ]
+          ],
+          "heightsMm": [
+            1000,
+            1500,
+            2500,
+            4000
+          ],
+          "widthsMm": [
+            1000,
+            1500,
+            2500,
+            4000,
+            6000
+          ]
+        }
+      },
+      "vitree": false
+    },
+    "store-banne": {
+      "bornes": {
+        "minHeightMm": 1500,
+        "minWidthMm": 1800,
+        "vantailMaxMm": {
+          "alu": 4800
+        },
+        "vantailMinMm": 1800,
+        "vantauxMax": 1,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1000
+      },
+      "label": "Store banne",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              94700,
+              105500,
+              116300,
+              127100,
+              137900,
+              148700
+            ],
+            [
+              103000,
+              115000,
+              127000,
+              139000,
+              151000,
+              163000
+            ],
+            [
+              111400,
+              124600,
+              137800,
+              151000,
+              164200,
+              177400
+            ],
+            [
+              119700,
+              134100,
+              148500,
+              162900,
+              177300,
+              191700
+            ],
+            [
+              128100,
+              143700,
+              159300,
+              174900,
+              190500,
+              206100
+            ]
+          ],
+          "heightsMm": [
+            1500,
+            2000,
+            2500,
+            3000,
+            3500
+          ],
+          "widthsMm": [
+            1800,
+            2400,
+            3000,
+            3600,
+            4200,
+            4800
+          ]
+        }
+      },
+      "vitree": false
+    },
+    "store-interieur": {
+      "bornes": {
+        "minHeightMm": 300,
+        "minWidthMm": 300,
+        "vantailMaxMm": {
+          "alu": 3000,
+          "bois": 2400,
+          "pvc": 2400
+        },
+        "vantailMinMm": 300,
+        "vantauxMax": 1,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1000,
+        "bois": 1350,
+        "pvc": 900
+      },
+      "frameBandMm": {
+        "alu": 25,
+        "bois": 30,
+        "pvc": 25
+      },
+      "label": "Store intérieur",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              6200,
+              7800,
+              9600,
+              11800,
+              15100
+            ],
+            [
+              7100,
+              8900,
+              11000,
+              13500,
+              17300
+            ],
+            [
+              8100,
+              10200,
+              12600,
+              15400,
+              19800
+            ],
+            [
+              9200,
+              11600,
+              14300,
+              17500,
+              22500
+            ]
+          ],
+          "heightsMm": [
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "widthsMm": [
+            600,
+            1000,
+            1400,
+            1800,
+            2400
+          ]
+        }
+      },
+      "vitree": false
+    },
+    "volet-battant": {
+      "bornes": {
+        "minHeightMm": 500,
+        "minWidthMm": 250,
+        "vantailMaxMm": {
+          "alu": 800,
+          "bois": 850,
+          "pvc": 700
+        },
+        "vantailMinMm": 250,
+        "vantauxMax": 2,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1300,
+        "bois": 1450,
+        "pvc": 1000
+      },
+      "label": "Volet battant",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              13500,
+              15200,
+              16800,
+              18400
+            ],
+            [
+              16100,
+              17900,
+              19700,
+              21500
+            ],
+            [
+              18700,
+              20600,
+              22600,
+              24600
+            ],
+            [
+              21200,
+              23400,
+              25500,
+              27700
+            ],
+            [
+              23800,
+              26100,
+              28500,
+              30800
+            ]
+          ],
+          "heightsMm": [
+            600,
+            1000,
+            1400,
+            1800,
+            2200
+          ],
+          "widthsMm": [
+            300,
+            450,
+            600,
+            750
+          ]
+        },
+        "2": {
+          "cellsCents": [
+            [
+              20000,
+              23400,
+              26800,
+              30200,
+              32500
+            ],
+            [
+              23100,
+              26900,
+              30700,
+              34600,
+              37100
+            ],
+            [
+              26300,
+              30500,
+              34700,
+              38900,
+              41700
+            ],
+            [
+              29500,
+              34000,
+              38600,
+              43200,
+              46200
+            ],
+            [
+              32600,
+              37600,
+              42500,
+              47500,
+              50800
+            ]
+          ],
+          "heightsMm": [
+            600,
+            1000,
+            1400,
+            1800,
+            2200
+          ],
+          "widthsMm": [
+            600,
+            900,
+            1200,
+            1500,
+            1700
+          ]
+        }
+      },
+      "vitree": false
+    },
+    "volet-roulant": {
+      "bornes": {
+        "minHeightMm": 500,
+        "minWidthMm": 400,
+        "vantailMaxMm": {
+          "alu": 3000,
+          "pvc": 2400
+        },
+        "vantailMinMm": 400,
+        "vantauxMax": 1,
+        "vantauxMin": 1
+      },
+      "coefMateriauMilliemes": {
+        "alu": 1180,
+        "pvc": 1000
+      },
+      "label": "Volet roulant",
+      "matrices": {
+        "1": {
+          "cellsCents": [
+            [
+              17400,
+              20800,
+              24100,
+              27500,
+              30900,
+              34200,
+              37600
+            ],
+            [
+              20300,
+              24300,
+              28300,
+              32300,
+              36300,
+              40300,
+              44300
+            ],
+            [
+              23200,
+              27800,
+              32500,
+              37100,
+              41700,
+              46400,
+              51000
+            ],
+            [
+              26100,
+              31300,
+              36600,
+              41900,
+              47200,
+              52500,
+              57700
+            ],
+            [
+              28900,
+              34900,
+              40800,
+              46700,
+              52600,
+              58500,
+              64500
+            ],
+            [
+              31800,
+              38400,
+              44900,
+              51500,
+              58100,
+              64600,
+              71200
+            ]
+          ],
+          "heightsMm": [
+            600,
+            1000,
+            1400,
+            1800,
+            2200,
+            2600
+          ],
+          "widthsMm": [
+            600,
+            1000,
+            1400,
+            1800,
+            2200,
+            2600,
+            3000
+          ]
+        }
+      },
+      "vitree": false
+    }
+  },
+  "famillesAvecPose": [
+    "fenetre",
+    "porte-fenetre",
+    "coulissant",
+    "porte-entree"
+  ],
+  "ferrureKgParVantail": 1.8,
+  "ferruresRenforceesMilliemes": 120,
+  "feuilleteImposeAllegeSousMm": 900,
+  "formes": [
+    {
+      "argument": "La forme de référence — quatre coupes d’onglet à 45°.",
+      "coefMilliemes": 1000,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "coulissant",
+        "porte-entree",
+        "volet-roulant",
+        "volet-battant",
+        "store-banne"
+      ],
+      "id": "rectangle",
+      "label": "Rectangulaire"
+    },
+    {
+      "argument": "Le comble aménagé : le haut suit la pente du toit.",
+      "coefMilliemes": 1180,
+      "familles": [
+        "fenetre",
+        "porte-fenetre"
+      ],
+      "id": "trapeze",
+      "label": "Trapèze (rampant)",
+      "ouvertures": [
+        "frappe",
+        "fixe"
+      ]
+    },
+    {
+      "argument": "La pointe du pignon. Fixe : aucune ferrure ne tient une pointe.",
+      "coefMilliemes": 1220,
+      "familles": [
+        "fenetre"
+      ],
+      "id": "triangle",
+      "label": "Triangle (pignon)",
+      "ouvertures": [
+        "fixe"
+      ]
+    },
+    {
+      "argument": "L’arc doux — la montée se règle, du presque droit au demi-cercle.",
+      "coefMilliemes": 1520,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "porte-entree"
+      ],
+      "id": "surbaisse",
+      "label": "Cintre surbaissé",
+      "ouvertures": [
+        "frappe",
+        "fixe"
+      ]
+    },
+    {
+      "argument": "Le tracé à trois centres du bâti ancien — deux rayons, jamais une ellipse.",
+      "coefMilliemes": 1620,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "porte-entree"
+      ],
+      "id": "anse-de-panier",
+      "label": "Anse de panier",
+      "ouvertures": [
+        "frappe",
+        "fixe"
+      ]
+    },
+    {
+      "argument": "Le demi-cercle parfait : la montée vaut la demi-largeur.",
+      "coefMilliemes": 1580,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "porte-entree"
+      ],
+      "id": "plein-cintre",
+      "label": "Plein cintre",
+      "ouvertures": [
+        "frappe",
+        "fixe"
+      ]
+    },
+    {
+      "argument": "Un développé sans montant ni traverse — un seul cintrage, fermé sur lui-même.",
+      "coefMilliemes": 1650,
+      "familles": [
+        "fenetre"
+      ],
+      "id": "rond",
+      "label": "Œil-de-bœuf",
+      "ouvertures": [
+        "fixe"
+      ]
+    },
+    {
+      "argument": "Le rayon change tout le long : c’est le cintrage le plus délicat.",
+      "coefMilliemes": 1780,
+      "familles": [
+        "fenetre"
+      ],
+      "id": "ovale",
+      "label": "Ovale",
+      "ouvertures": [
+        "fixe"
+      ]
+    }
+  ],
+  "frameBandMm": {
+    "alu": 95,
+    "bois": 110,
+    "mixte": 105,
+    "pvc": 115
+  },
+  "manoeuvres": {
+    "manivelle": {
+      "coefMilliemes": 1035,
+      "label": "Manivelle"
+    },
+    "sangle": {
+      "coefMilliemes": 1000,
+      "label": "Sangle"
+    }
+  },
+  "masseCadreKgParMetre": {
+    "alu": 2.6,
+    "bois": 4.2,
+    "pvc": 2.2
+  },
+  "masseLineiqueKgParM": {
+    "alu": 2.1,
+    "bois": 3.2,
+    "mixte": 3.6,
+    "pvc": 2.4
+  },
+  "masseRemplissageKgParM2": {
+    "alu": 15,
+    "bois": 26,
+    "pvc": 13
+  },
+  "modelesPortail": [],
+  "modelesPorte": [
+    {
+      "argument": "La surface lisse, sans reprise — la plus sobre et la moins chère.",
+      "coefMilliemes": 1000,
+      "decor": {},
+      "id": "unie",
+      "nom": "Panneau uni"
+    },
+    {
+      "argument": "Le dessin classique de la porte de maison, en trois registres.",
+      "coefMilliemes": 1060,
+      "decor": {
+        "panneaux": 3
+      },
+      "id": "trois-panneaux",
+      "nom": "Trois panneaux en creux"
+    },
+    {
+      "argument": "L'encadrement en relief autour de chaque panneau — le style ancien.",
+      "coefMilliemes": 1090,
+      "decor": {
+        "moulures": 1,
+        "panneaux": 2
+      },
+      "id": "moulures",
+      "nom": "Deux panneaux à moulures"
+    },
+    {
+      "argument": "Quatre traits fraisés dans la masse : contemporain et discret.",
+      "coefMilliemes": 1040,
+      "decor": {
+        "rainures": 4
+      },
+      "id": "rainures",
+      "nom": "Rainures verticales"
+    },
+    {
+      "argument": "Les barres d'acier brossé en applique — la porte contemporaine.",
+      "coefMilliemes": 1130,
+      "decor": {
+        "insertsInox": 4
+      },
+      "id": "inserts-inox",
+      "nom": "Inserts inox horizontaux"
+    },
+    {
+      "argument": "Le haut de gamme contemporain : le fraisage ET le métal.",
+      "coefMilliemes": 1180,
+      "decor": {
+        "insertsInox": 3,
+        "rainures": 2
+      },
+      "id": "rainures-inox",
+      "nom": "Rainures et inserts inox"
+    }
+  ],
+  "modelesVolet": [
+    {
+      "argument": "Les lames inclinées laissent passer l'air et arrêtent la pluie — le volet du Sud.",
+      "coefMilliemes": 1000,
+      "decor": {
+        "persiennePart": 1
+      },
+      "id": "persienne",
+      "nom": "Persienné"
+    },
+    {
+      "argument": "Des planches jointives, deux barres et l'écharpe qui les tient — le volet de campagne, et le moins cher à fabriquer.",
+      "coefMilliemes": 940,
+      "decor": {
+        "barres": 2,
+        "echarpe": true,
+        "persiennePart": 0
+      },
+      "id": "plein-barre-echarpe",
+      "nom": "Plein, à barres et écharpe"
+    },
+    {
+      "argument": "Plein en bas pour l'intimité, persienné en haut pour l'air — deux ouvrages en un.",
+      "coefMilliemes": 1030,
+      "decor": {
+        "barres": 1,
+        "echarpe": true,
+        "persiennePart": 0.55
+      },
+      "id": "mi-persienne",
+      "nom": "Mi-plein, persienné en partie haute"
+    }
+  ],
+  "moteurs": [],
+  "options": [
+    {
+      "amountCents": 6200,
+      "familles": [
+        "fenetre",
+        "porte-fenetre"
+      ],
+      "id": "oscillo-battant",
+      "label": "Oscillo-battant",
+      "unite": "parVantail"
+    },
+    {
+      "amountCents": 2800,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "coulissant"
+      ],
+      "id": "poignee-cle",
+      "label": "Poignée à clé",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 2400,
+      "familles": [
+        "fenetre",
+        "porte-fenetre"
+      ],
+      "id": "grille-ventilation",
+      "label": "Grille de ventilation",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 1800,
+      "familles": [
+        "fenetre",
+        "porte-fenetre"
+      ],
+      "id": "petits-bois",
+      "label": "Petits-bois intégrés",
+      "unite": "parVantail"
+    },
+    {
+      "amountCents": 9500,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "coulissant"
+      ],
+      "id": "moustiquaire",
+      "label": "Moustiquaire intégrée",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 26000,
+      "familles": [
+        "fenetre",
+        "porte-fenetre"
+      ],
+      "id": "bloc-baie-manuel",
+      "label": "Volet roulant bloc-baie manuel",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 14800,
+      "familles": [
+        "volet-roulant",
+        "store-banne",
+        "fenetre",
+        "porte-fenetre"
+      ],
+      "id": "motorisation-filaire",
+      "label": "Motorisation filaire",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 26200,
+      "familles": [
+        "volet-roulant",
+        "store-banne",
+        "fenetre",
+        "porte-fenetre"
+      ],
+      "id": "motorisation-radio",
+      "label": "Motorisation radio io + télécommande",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 38800,
+      "familles": [
+        "volet-roulant",
+        "store-banne",
+        "fenetre",
+        "porte-fenetre"
+      ],
+      "id": "motorisation-solaire",
+      "label": "Motorisation solaire",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 5500,
+      "familles": [
+        "porte-entree",
+        "porte-fenetre"
+      ],
+      "id": "seuil-pmr",
+      "label": "Seuil PMR 20 mm",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 19000,
+      "familles": [
+        "porte-entree"
+      ],
+      "id": "serrure-a2p",
+      "label": "Serrure multipoints A2P*",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 21000,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "porte-entree",
+        "coulissant"
+      ],
+      "id": "grille-defense",
+      "label": "Grille de défense — barreaux droits",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 22500,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "porte-entree",
+        "coulissant"
+      ],
+      "id": "grille-horizontale",
+      "label": "Grille de défense — barreaudage horizontal",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 26500,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "porte-entree",
+        "coulissant"
+      ],
+      "id": "grille-croisillons",
+      "label": "Grille de défense — croisillons soudés",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 14500,
+      "familles": [
+        "porte-entree"
+      ],
+      "id": "boite-aux-lettres",
+      "label": "Boîte aux lettres intégrée",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 4500,
+      "familles": [
+        "porte-entree"
+      ],
+      "id": "judas",
+      "label": "Judas optique grand angle",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 6800,
+      "familles": [
+        "porte-entree"
+      ],
+      "id": "heurtoir",
+      "label": "Heurtoir en fonte",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 11500,
+      "familles": [
+        "porte-entree"
+      ],
+      "id": "soubassement-inox",
+      "label": "Soubassement inox brossé",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 34000,
+      "familles": [
+        "fenetre",
+        "porte-fenetre",
+        "porte-entree",
+        "coulissant"
+      ],
+      "id": "grille-ouvragee",
+      "label": "Grille de défense — barreaux ouvragés à volutes",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 7400,
+      "familles": [
+        "volet-roulant"
+      ],
+      "id": "verrou-automatique",
+      "label": "Verrou automatique anti-relevage",
+      "unite": "parMenuiserie"
+    },
+    {
+      "amountCents": 9800,
+      "familles": [
+        "store-banne"
+      ],
+      "id": "capteur-vent",
+      "label": "Capteur vent",
+      "unite": "parMenuiserie"
+    }
+  ],
+  "ouverturesDeclarees": [],
+  "poses": {
+    "applique": {
+      "argument": "Le dormant se plaque sur le doublage isolant ; la tapée rattrape son épaisseur.",
+      "bavetteCentsParMetre": 0,
+      "coefMilliemes": 1000,
+      "couvreJointCentsParMetre": 0,
+      "id": "applique",
+      "label": "Neuf en applique",
+      "mesureHauteur": "Du sol fini (ou du rejingot) au linteau, recouvrement haut compris.",
+      "mesureLargeur": "Le tableau, plus le recouvrement du doublage de chaque côté.",
+      "ouvrantExistantMm": 0,
+      "recouvrementMm": 0,
+      "tapee": true
+    },
+    "depose-totale": {
+      "argument": "On retire tout jusqu’à la maçonnerie : le clair de jour d’origine est retrouvé.",
+      "bavetteCentsParMetre": 2450,
+      "coefMilliemes": 1000,
+      "couvreJointCentsParMetre": 0,
+      "id": "depose-totale",
+      "label": "Dépose totale",
+      "mesureHauteur": "Du rejingot au linteau, après dépose de l’ancien dormant.",
+      "mesureLargeur": "Le tableau après dépose — prévoir la reprise de maçonnerie.",
+      "ouvrantExistantMm": 0,
+      "recouvrementMm": 0,
+      "tapee": false
+    },
+    "neuf-tableau": {
+      "argument": "La pose de référence : la menuiserie se loge dans la maçonnerie nue.",
+      "bavetteCentsParMetre": 0,
+      "coefMilliemes": 1000,
+      "couvreJointCentsParMetre": 0,
+      "id": "neuf-tableau",
+      "label": "Neuf en tableau",
+      "mesureHauteur": "Du rejingot au linteau, au plus court des trois mesures, jeu de pose déduit.",
+      "mesureLargeur": "Le tableau fini, au plus étroit des trois mesures, jeu de pose déduit (≈ 10 mm).",
+      "ouvrantExistantMm": 0,
+      "recouvrementMm": 0,
+      "tapee": false
+    },
+    "renovation": {
+      "argument": "L’ancien dormant reste en place ; le neuf vient s’y loger et le coiffe.",
+      "bavetteCentsParMetre": 2450,
+      "coefMilliemes": 1050,
+      "couvreJointCentsParMetre": 1150,
+      "id": "renovation",
+      "label": "Rénovation",
+      "mesureHauteur": "Du dessus de la pièce d’appui existante au dormant haut, au plus court.",
+      "mesureLargeur": "D’un intérieur de dormant existant à l’autre, au plus étroit.",
+      "ouvrantExistantMm": 55,
+      "recouvrementMm": 50,
+      "tapee": false
+    }
+  },
+  "pressionVentPa": {
+    "abritee": 400,
+    "exposee": 1100,
+    "normale": 700
+  },
+  "profils": {
+    "chambres": {
+      "alu": {
+        "confort": 4,
+        "performance": 5,
+        "standard": 3
+      },
+      "bois": {
+        "confort": 0,
+        "performance": 0,
+        "standard": 0
+      },
+      "mixte": {
+        "confort": 0,
+        "performance": 0,
+        "standard": 0
+      },
+      "pvc": {
+        "confort": 6,
+        "performance": 7,
+        "standard": 5
+      }
+    },
+    "epaisseurMm": {
+      "alu": {
+        "confort": 65,
+        "performance": 75,
+        "standard": 55
+      },
+      "bois": {
+        "confort": 78,
+        "performance": 92,
+        "standard": 68
+      },
+      "mixte": {
+        "confort": 80,
+        "performance": 90,
+        "standard": 70
+      },
+      "pvc": {
+        "confort": 76,
+        "performance": 82,
+        "standard": 70
+      }
+    },
+    "ruptureThermique": {
+      "alu": true,
+      "bois": false,
+      "mixte": true,
+      "pvc": false
+    }
+  },
+  "remisesQuantite": [
+    {
+      "milliemes": 30,
+      "quantiteMin": 3
+    },
+    {
+      "milliemes": 50,
+      "quantiteMin": 5
+    },
+    {
+      "milliemes": 80,
+      "quantiteMin": 10
+    }
+  ],
+  "renfortCoulisse": {
+    "auDelaDeMm": 3000,
+    "centsParMetre": 2400
+  },
+  "securites": [],
+  "seuilPriseAuVentDaN": 200,
+  "systemes": [
+    {
+      "argument": "Le standard du marché, blanc ou plaxé.",
+      "chambres": 5,
+      "epaisseurMm": 70,
+      "gamme": "standard",
+      "id": "pvc-70-5",
+      "materiau": "pvc",
+      "nom": "PVC 70 — 5 chambres",
+      "ruptureThermique": false,
+      "uf": 1.4
+    },
+    {
+      "argument": "Un joint de plus, une chambre de plus.",
+      "chambres": 6,
+      "epaisseurMm": 76,
+      "gamme": "confort",
+      "id": "pvc-76-6",
+      "materiau": "pvc",
+      "nom": "PVC 76 — 6 chambres",
+      "ruptureThermique": false,
+      "uf": 1.3
+    },
+    {
+      "argument": "Pour viser le triple vitrage et les aides.",
+      "chambres": 7,
+      "epaisseurMm": 82,
+      "gamme": "performance",
+      "id": "pvc-82-7",
+      "materiau": "pvc",
+      "nom": "PVC 82 — 7 chambres",
+      "ruptureThermique": false,
+      "uf": 1.1
+    },
+    {
+      "argument": "Le haut de gamme PVC : trois joints, 8 chambres.",
+      "chambres": 8,
+      "coefMilliemes": 1420,
+      "epaisseurMm": 86,
+      "gamme": "performance",
+      "id": "pvc-86-8",
+      "materiau": "pvc",
+      "nom": "PVC 86 — 8 chambres, joint central",
+      "ruptureThermique": false,
+      "uf": 1
+    },
+    {
+      "argument": "Lignes fines, grandes dimensions.",
+      "chambres": 3,
+      "epaisseurMm": 55,
+      "gamme": "standard",
+      "id": "alu-55-rpt",
+      "materiau": "alu",
+      "nom": "Alu 55 à rupture",
+      "ruptureThermique": true,
+      "uf": 2.2
+    },
+    {
+      "chambres": 4,
+      "epaisseurMm": 65,
+      "gamme": "confort",
+      "id": "alu-65-rpt",
+      "materiau": "alu",
+      "nom": "Alu 65 à rupture renforcée",
+      "ruptureThermique": true,
+      "uf": 1.8
+    },
+    {
+      "chambres": 5,
+      "epaisseurMm": 75,
+      "gamme": "performance",
+      "id": "alu-75-rpt",
+      "materiau": "alu",
+      "nom": "Alu 75 haute isolation",
+      "ruptureThermique": true,
+      "uf": 1.5
+    },
+    {
+      "argument": "Pour les baies hors normes, vantaux lourds.",
+      "chambres": 5,
+      "coefMilliemes": 1560,
+      "epaisseurMm": 90,
+      "gamme": "performance",
+      "id": "alu-90-grand",
+      "materiau": "alu",
+      "nom": "Alu 90 grandes dimensions",
+      "ruptureThermique": true,
+      "uf": 1.6
+    },
+    {
+      "chambres": 0,
+      "epaisseurMm": 68,
+      "gamme": "standard",
+      "id": "bois-68",
+      "materiau": "bois",
+      "nom": "Chêne 68",
+      "ruptureThermique": false,
+      "uf": 1.6
+    },
+    {
+      "chambres": 0,
+      "epaisseurMm": 78,
+      "gamme": "confort",
+      "id": "bois-78",
+      "materiau": "bois",
+      "nom": "Chêne 78 lamellé",
+      "ruptureThermique": false,
+      "uf": 1.5
+    },
+    {
+      "chambres": 0,
+      "epaisseurMm": 92,
+      "gamme": "performance",
+      "id": "bois-92",
+      "materiau": "bois",
+      "nom": "Chêne 92 lamellé collé",
+      "ruptureThermique": false,
+      "uf": 1.3
+    },
+    {
+      "argument": "Le bois dedans, l’aluminium dehors.",
+      "chambres": 0,
+      "epaisseurMm": 70,
+      "gamme": "standard",
+      "id": "mixte-70",
+      "materiau": "mixte",
+      "nom": "Mixte bois-alu 70",
+      "ruptureThermique": true,
+      "uf": 1.6
+    },
+    {
+      "chambres": 0,
+      "epaisseurMm": 80,
+      "gamme": "confort",
+      "id": "mixte-80",
+      "materiau": "mixte",
+      "nom": "Mixte bois-alu 80",
+      "ruptureThermique": true,
+      "uf": 1.4
+    },
+    {
+      "chambres": 0,
+      "epaisseurMm": 90,
+      "gamme": "performance",
+      "id": "mixte-90",
+      "materiau": "mixte",
+      "nom": "Mixte bois-alu 90",
+      "ruptureThermique": true,
+      "uf": 1.2
+    }
+  ],
+  "tapees": [
+    {
+      "centsParMetre": 1450,
+      "epaisseurMm": 100
+    },
+    {
+      "centsParMetre": 1620,
+      "epaisseurMm": 120
+    },
+    {
+      "centsParMetre": 1790,
+      "epaisseurMm": 140
+    },
+    {
+      "centsParMetre": 1960,
+      "epaisseurMm": 160
+    }
+  ],
+  "thermique": {
+    "controleSolaireFacteur": 0.5,
+    "gParVitrage": {
+      "double": 0.76,
+      "double-itr": 0.6,
+      "triple": 0.5
+    },
+    "psiParVitrage": {
+      "double": 0.06,
+      "double-itr": 0.05,
+      "triple": 0.05
+    },
+    "psiWarmEdge": 0.035,
+    "tlParVitrage": {
+      "double": 0.81,
+      "double-itr": 0.8,
+      "triple": 0.7
+    },
+    "ufParMateriau": {
+      "alu": {
+        "confort": 1.8,
+        "performance": 1.5,
+        "standard": 2.2
+      },
+      "bois": {
+        "confort": 1.5,
+        "performance": 1.3,
+        "standard": 1.6
+      },
+      "mixte": {
+        "confort": 1.4,
+        "performance": 1.2,
+        "standard": 1.6
+      },
+      "pvc": {
+        "confort": 1.3,
+        "performance": 1.1,
+        "standard": 1.4
+      }
+    },
+    "ugParVitrage": {
+      "double": 1.1,
+      "double-itr": 1,
+      "triple": 0.6
+    }
+  },
+  "verre": {
+    "epaisseurMm": {
+      "double": 8,
+      "double-itr": 8,
+      "triple": 12
+    },
+    "feuilleteSupplementMm": 4.8,
+    "kgParM2ParMm": 2.5,
+    "lameAirMm": {
+      "double": 16,
+      "double-itr": 16,
+      "triple": 32
+    },
+    "phoniqueSupplementMm": 6,
+    "storeIntegreKgParM2": 2.4,
+    "storeIntegreSupplementMm": 12
+  },
+  "version": "2026.08-reference"
+}

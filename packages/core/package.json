@@ -1,0 +1,14 @@
+{
+  "name": "@ahjc/core",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "description": "The configurator engine: types, catalogue, prices, manufacturing rules, drawing. No DOM, no clock.",
+  "license": "GPL-2.0-or-later",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./src/*": "./src/*"
+  }
+}

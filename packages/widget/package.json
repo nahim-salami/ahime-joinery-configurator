@@ -1,0 +1,15 @@
+{
+  "name": "@ahjc/widget",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "description": "The <ahjc-configurator> web component: 2D SVG drawing, 3D view, price, cart button.",
+  "license": "GPL-2.0-or-later",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@ahjc/core": "0.5.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.185.1"
+  }
+}

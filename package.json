@@ -1,0 +1,30 @@
+{
+  "name": "ahime-joinery-configurator",
+  "version": "0.5.0",
+  "private": true,
+  "description": "Source code of the Ahime Joinery Configurator for WooCommerce plugin: the TypeScript engine, the web component and the WordPress plugin.",
+  "license": "GPL-2.0-or-later",
+  "type": "module",
+  "workspaces": [
+    "packages/core",
+    "packages/widget"
+  ],
+  "scripts": {
+    "build": "vite build --config packages/widget/vite.config.ts",
+    "zip": "node scripts/zip.mjs",
+    "typecheck": "tsc --noEmit -p packages/core && tsc --noEmit -p packages/widget"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@types/three": "0.185.4",
+    "@vitejs/plugin-react": "4.7.0",
+    "fflate": "0.8.3",
+    "typescript": "5.9.3",
+    "vite": "6.4.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
